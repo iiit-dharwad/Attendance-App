@@ -3,18 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@drawable/grad_bg"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <ImageView
-        android:src="@drawable/wallpaper3"
-        android:scaleType="centerCrop"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <ImageView
         android:src="@drawable/iiitdwd"
-        android:padding="20dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

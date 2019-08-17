@@ -150,6 +150,21 @@
                 android:textAllCaps="true"
                 android:textColor="@color/colorAccent" />
 
+            <ProgressBar
+                android:id="@+id/flProgressbar"
+                android:layout_below="@+id/link_goback"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/login_errorText"
+                android:textColor="@color/colorAccent"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
         </RelativeLayout>
 
 

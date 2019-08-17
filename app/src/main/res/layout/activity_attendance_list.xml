@@ -19,12 +19,22 @@ android:fitsSystemWindows="true">
     android:paddingTop="56dp"
     android:paddingRight="24dp">
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
-        android:src="@drawable/iiitdwd" />
+        android:src="@drawable/iiitdwd" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"

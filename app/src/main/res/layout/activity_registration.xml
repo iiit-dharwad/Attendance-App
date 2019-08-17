@@ -5,13 +5,24 @@
     android:background="@drawable/grad_bg"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:padding="20dp"
         android:layout_marginBottom="24dp"
-        android:src="@drawable/iiitdwd" />
+        android:src="@drawable/iiitdwd" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"/>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"

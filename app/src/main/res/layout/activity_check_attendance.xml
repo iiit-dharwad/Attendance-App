@@ -16,12 +16,22 @@
         android:paddingTop="56dp"
         android:orientation="vertical">
 
-        <ImageView
+        <!--<ImageView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="24dp"
-            android:src="@drawable/iiitdwd" />
+            android:src="@drawable/iiitdwd" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Attendance"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"/>
 
 
         <ScrollView

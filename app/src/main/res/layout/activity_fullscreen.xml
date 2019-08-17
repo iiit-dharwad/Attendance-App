@@ -27,6 +27,16 @@
             android:layout_marginBottom="70dp"
             android:src="@drawable/iiitdwd" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"/>
+
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_student"

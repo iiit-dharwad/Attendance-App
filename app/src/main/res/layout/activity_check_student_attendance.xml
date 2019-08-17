@@ -24,6 +24,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="24dp"
             android:src="@drawable/iiitdwd" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Attendance"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"/>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -35,7 +44,7 @@
                 android:id="@+id/student_id_attendance_check"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="  Student id"
+                android:hint=" Student id"
                 android:background="@drawable/et_bg"
                 android:inputType="textCapCharacters" />
         </android.support.design.widget.TextInputLayout>
